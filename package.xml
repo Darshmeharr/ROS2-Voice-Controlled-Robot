@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>voice_control_robot</name>
+  <version>0.0.1</version>
+  <description>Voice controlled robot using ROS2</description>
+
+  <maintainer email="your@email.com">
+    Darshmehar Singh Lamba
+  </maintainer>
+
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <exec_depend>python3-speechrecognition</exec_depend>
+
+</package>
